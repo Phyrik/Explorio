@@ -1,3 +1,3 @@
 # Explorio
 
-**About the game**
+##About the game
