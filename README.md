@@ -1,3 +1,3 @@
 # Explorio
 
-**Updates**
+**About the game**
