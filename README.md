@@ -1,5 +1,8 @@
 # Explorio
 
+To find different versions of the game go to Syfix-Studios/Explorio/Explorio/Builds
+Latest version as of now is v1.0
+
 ## About the game
 
 Our game is a game in which you choose a character and roam a world collecting items and crafting new ones.
