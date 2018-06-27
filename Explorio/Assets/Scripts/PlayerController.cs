@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(0f, 0f, Input.GetAxis("Vertical") * Time.deltaTime);
-        transform.Rotate(0f, Input.GetAxis("Horizontal") * Time.deltaTime * 10, 0f);
+        transform.Translate(0f, 0f, Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed);
+        transform.Rotate(0f, Input.GetAxis("Horizontal") * Time.deltaTime * 50, 0f);
     }
 }
