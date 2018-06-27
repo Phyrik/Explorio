@@ -10,7 +10,7 @@ GameObject:
   - component: {fileID: 460750}
   - component: {fileID: 3392210}
   - component: {fileID: 2360220}
-  - component: {fileID: 54801923268565372}
+  - component: {fileID: 64005708679970370}
   m_Layer: 0
   m_Name: Flat_Ground_01
   m_TagString: Untagged
@@ -84,18 +84,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 114218}
   m_IsPrefabParent: 1
---- !u!54 &54801923268565372
-Rigidbody:
+--- !u!64 &64005708679970370
+MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114218}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: f5baf401218f50f45a7f0fc2a17b6215, type: 3}
