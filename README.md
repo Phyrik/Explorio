@@ -1,6 +1,6 @@
 # Explorio
 
-To find different versions of the game go to Syfix-Studios/Explorio/Explorio/Assets/Builds
+To find different versions of the game go to Syfix-Studios/Explorio/Explorio/Builds
 Latest version as of now is v1.0
 
 ## About the game
