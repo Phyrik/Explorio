@@ -1,6 +1,6 @@
 # Explorio
 
-To find different versions of the game go to Explorio/Build and file should be called Explorio v1.0 (Windows 64-bit).
+To find different versions of the game go to Explorio/Build and file should be called Explorio v1.0.
 Latest version as of now is v1.0
 
 ## About the game
