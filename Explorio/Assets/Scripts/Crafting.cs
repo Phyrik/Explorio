@@ -37,25 +37,20 @@ public class Crafting : MonoBehaviour {
 
         if(craftingButtonText.text == "Craft")
         {
-            Debug.Log("1");
             craftingButtonText.text = "Close";
         }
 
         else if (craftingButtonText.text == "Close")
         {
-            Debug.Log("2");
             craftingButtonText.text = "Craft";
         }
     }
 
     void buyHammer ()
     {
-        Debug.Log("test0");
-        Debug.Log(wood);
-        Debug.Log(stone);
         if(hammerBought == false && wood >= 1 && stone >= 1)
         {
-            Debug.Log("test");
+            hammerBought = true;
         }
     }
 }
