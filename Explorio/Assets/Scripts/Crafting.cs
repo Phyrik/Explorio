@@ -6,11 +6,25 @@ using UnityEngine.UI;
 public class Crafting : MonoBehaviour {
 
     public GameObject craftingPanel;
+    public GameObject player;
     public Text craftingButtonText;
+    public bool hammerBought;
+    private CollectItem collectItemScript;
+    private int wood;
+    private int stone;
 
     private void Start()
     {
+        collectItemScript = player.GetComponent<CollectItem>();
+        wood = collectItemScript.wood;
+        stone = collectItemScript.stone;
         craftingPanel.SetActive(false);
+        hammerBought = false;
+    }
+    private void Update()
+    {
+        wood = collectItemScript.wood;
+        stone = collectItemScript.stone;
     }
 
     void craftingButtonPressed ()
@@ -31,6 +45,17 @@ public class Crafting : MonoBehaviour {
         {
             Debug.Log("2");
             craftingButtonText.text = "Craft";
+        }
+    }
+
+    void buyHammer ()
+    {
+        Debug.Log("test0");
+        Debug.Log(wood);
+        Debug.Log(stone);
+        if(hammerBought == false && wood >= 1 && stone >= 1)
+        {
+            Debug.Log("test");
         }
     }
 }
