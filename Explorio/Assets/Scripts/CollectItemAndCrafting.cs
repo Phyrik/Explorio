@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CollectItem : MonoBehaviour {
+public class CollectItemAndCrafting : MonoBehaviour {
 
     public GameObject craftingPanel;
     public GameObject hammer;
